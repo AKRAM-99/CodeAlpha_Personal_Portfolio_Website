@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dark Header</title>
+    <link rel="stylesheet" href="styles.css">
+    <link src="script.js">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+</head>
+
+<body>
+    <header class="dark-header">
+        <div class="container">
+            <h1>My Portfolio</h1>
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div id="home" class="content">
+        <section class="intro">
+            <h2>Shaik Akram - Python Developer</h2>
+            <p>Hi, I'm Shaik Akram, a passionate Python developer with experience in software development and a strong
+                foundation in programming languages such as Python, HTML, CSS, and JavaScript. I bring a fresh
+                perspective and a commitment to excellence to every project I undertake. Let's collaborate and create
+                something amazing together!</p>
+        </section>
+        <img src="Designer (2).png" width="400px" height="400px" class="img">
+    </div>
+    <div class="icons">
+        <a href="#"><i class='bx bxl-github'></i></a>
+        <a href="#"><i class='bx bxl-linkedin'></i></a>
+    </div>
+    <div id="about" class="about-me-container" data-aos="fade-down-left" >
+        <section class="about-me">
+            <h2>About Me</h2>
+            <p>As a first-year B.Tech student, I bring a burgeoning skill set in Python, HTML, CSS, and JavaScript to
+                the table. Eager to gain real-world experience, I am actively seeking an internship opportunity where I
+                can apply my coding abilities and collaborate with a dynamic team. My key strengths lie in my
+                proficiency in these programming languages and my enthusiasm for learning and contributing to innovative
+                projects.</p>
+            <p>During my recent internship at InternPe, I had the opportunity to work as a Python Developer, where I
+                honed my skills and gained valuable insights into software development practices. Prior to that, I
+                completed another internship at Oasis Infobyte, further strengthening my expertise in Python
+                programming.</p>
+            <p>Currently pursuing my education at Narayana Engineering College in India, I am committed to continuous
+                learning and growth in the field of technology. I hold certifications in Python programming and have a
+                strong foundation in HTML, CSS, and JavaScript.</p>
+        </section>
+    </div>
+    <br>
+    <br>
+    <br>
+    <div id="projects" class="projects-container">
+        <h1>MY PROJECTS:</h1>
+        <section class="project">
+            <h2>Age Calculator</h2>
+            <p>Description: A simple tool that calculates the user's current age based on the date of birth provided.
+                Functionality: Takes the user's date of birth as input and returns their current age.
+                Features: User-friendly interface, accurate age calculation.</p>
+        </section>
+        <section class="project">
+            <h2>To-Do List</h2>
+            <p>Description: An application to help users organize their tasks by creating a list of things to do.
+                Functionality: Allows users to add, delete, and mark tasks as done.
+                Features: Easy task management, intuitive user experience, dynamic task updates.</p>
+        </section>
+        <section class="project">
+            <h2>Survey Form</h2>
+            <p>Description: A platform for creating and conducting surveys to collect data and gather insights.
+                Functionality: Enables users to create custom surveys with various question types and collect responses.
+                Features: Customizable survey design, responsive interface, data analysis tools for insights.</p>
+        </section>
+    </div>
+    <div id="contact" class="contact-container">
+        <div class="contact-container">
+            <h2>Contact Me</h2>
+            <form action="#" method="post">
+                <label for="name">Name:</label><br>
+                <input type="text" id="name" name="name"><br>
+                <label for="email">Email:</label><br>
+                <input type="email" id="email" name="email"><br>
+                <label for="message">Message:</label><br>
+                <textarea id="message" name="message" rows="4"></textarea><br>
+                <input type="submit" value="Submit">
+            </form>
+        </div>
+    </div>
+    <br>
+    <br>
+    <br>
+    <br>
+    <footer class="dark-footer">
+        <p>&copy; 2024 My Portfolio. All rights reserved.</p>
+    </footer>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+
+</html>
